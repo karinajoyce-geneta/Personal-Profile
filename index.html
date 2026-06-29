@@ -61,7 +61,8 @@ View My Projects
 
 <div class="home-image">
 
-<img src="profile.jpg">
+<img src="profile.jpg" alt="Karina Joyce Geneta"
+class="profile-img">
 
 </div>
 
@@ -156,17 +157,17 @@ GitHub
 
 <div class="card">
 
-<h3>Student Information System</h3>
+<h3>GPS Location</h3>
 
-<p>Sample web-based system.</p>
+<p>GPS-Based on Serial Number in Android Mobile Tracking.</p>
 
 </div>
 
 <div class="card">
 
-<h3>OJT Documentation</h3>
+<h3>Software Engineering 1</h3>
 
-<p>My internship documentation project.</p>
+<p>CCS Laboratory Equipment Inventory System.</p>
 
 </div>
 
@@ -179,31 +180,14 @@ GitHub
 <h2>Contact Me</h2>
 
 <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
 
-<input
-type="text"
-placeholder="Name"
-required>
+    <input type="email" id="email" placeholder="Your Email" required>
 
-<input
-type="email"
-placeholder="Email"
-required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
 
-<textarea
-placeholder="Message"
-required>
-
-</textarea>
-
-<button type="submit">
-
-Send
-
-</button>
-
+    <button type="submit">Send Message</button>
 </form>
-
 </section>
 
 <footer>
@@ -217,6 +201,6 @@ Send
 </footer>
 
 <script src="script.js"></script>
-
+<script type="module" src="firebase.js"></script>
 </body>
 </html>

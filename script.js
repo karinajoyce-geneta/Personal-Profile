@@ -53,15 +53,6 @@ function typeEffect() {
 typeEffect();
 
 // Contact Form
-const form = document.getElementById("contactForm");
-
-form.addEventListener("submit", function(e){
-    e.preventDefault();
-
-    alert("Thank you! Your message has been received.");
-
-    form.reset();
-});
 
 // Smooth Scrolling
 document.querySelectorAll("nav a").forEach(anchor=>{
