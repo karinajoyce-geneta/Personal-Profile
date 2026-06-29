@@ -25,16 +25,20 @@ const form = document.getElementById("contactForm");
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const name = form.querySelector('input[type="text"]').value;
-  const email = form.querySelector('input[type="email"]').value;
-  const message = form.querySelector("textarea").value;
+const name = document.getElementById("name").value;
+const email = document.getElementById("email").value;
+const message = document.getElementById("message").value;
+
 
   try {
     await addDoc(collection(db, "messages"), {
-      name,
-      email,
-      message,
-      createdAt: new Date()
+      name:
+    document. getElementById("name").value,
+      email:
+    document. getElementById("email").value,
+      message:
+    document. getElementById("message").value,
+      date: new Date()
     });
 
     alert("Message sent successfully!");

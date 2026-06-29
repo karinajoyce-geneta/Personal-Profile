@@ -1,0 +1,32 @@
+# Personal Profile Website
+
+## Description
+This project is an improved version of my Midterm Activity 1 Personal Profile. It is a responsive portfolio website that showcases my background, skills, education, projects, and contact information.
+
+## Features
+- Responsive design
+- Smooth scrolling
+- Contact form integrated with Firebase Firestore
+- Hosted on GitHub Pages
+- Modern user interface
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Firebase Firestore
+- Git & GitHub
+- GitHub Pages
+
+## Tools Used
+- Visual Studio Code
+- Git
+- Firebase
+- Canva/Figma (if you used either)
+- ChatGPT (AI assistant)
+
+## Live Website
+https://karinajoyce-geneta.github.io/Personal-Profile/
+
+## GitHub Repository
+https://github.com/karinajoyce-geneta/Personal-Profile
